@@ -20,7 +20,7 @@ async def on_ready() -> None:
     print(f'Logged in as {bot.user.name}')
 
 
-TARGET_CHANNEL_ID = channel_id  # Замените на ID вашего голосового канала
+TARGET_CHANNEL_ID = channel_id  # ID голосового канала
 
 
 @bot.event
